@@ -7,7 +7,7 @@ const qrcode = require('qrcode-terminal');
 const express = require('express');
 
 let setting = require('./api.json');
-const BOT_NAME = process.env.BOT_NAME ?? 'Termux XYZ';
+const BOT_NAME = process.env.BOT_NAME ?? 'Kang Aman Bot';
 
 // Create an Express app for serving the QR code
 const app = express();
@@ -153,7 +153,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
                     let prompt_template =
                         "I am artificial intelligence " +
                         BOT_NAME +
-                        " developed by a Suman (Online Hacking).\n\nHuman: Hi. How are you?\n" +
+                        " developed by a Kang Aman.\n\nHuman: Hi. How are you?\n" +
                         BOT_NAME +
                         ": I'm well. How can I help you?\nHuman: " +
                         budy +
