@@ -8,7 +8,7 @@ const chalk = require('chalk');
 const { Configuration, OpenAIApi } = require('openai');
 const { sansekai } = require('./suman.js');
 
-const BOT_NAME = process.env.BOT_NAME ?? 'Bangipul Bot';
+const BOT_NAME = process.env.BOT_NAME ?? 'Kang Aman Bot';
 const SESSION_FILE_PATH = './session.json';
 
 // Function to read session data from file
